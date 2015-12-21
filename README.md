@@ -57,9 +57,11 @@ do not add this within the div container.
 
 3. Add the following lines to the bottom of your HTML, just before the closing </body>
 
+    ```html
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.12/vue.js"></script>
     <script src="app.js"></script>
+    ```
 
 3a. Don't forget to add bootstrap to the head of your HTML.
 
