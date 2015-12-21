@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue.js simple timer example</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <style rel="stylesheet">
+        .container {padding-top: 70px;height: 100vh;}
+        .jumbotron {background: #d9534f;}
+        .UICountdown {padding-left: 50px;}
+        .UICountdown h1, .UICountdown p {color: whitesmoke;}
+    </style>
+</head>
+
+<body @mousemove="idleReset">
+
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Bootstrap NAV bar</a>
+        </div>
+    </nav>
+
+    <div class="jumbotron UICountdown">
+        <span>
+            <h1>You will be logged out!</h1>
+            <p>
+                You have been idle for longer than {{ idleTime }} seconds. You will be
+                logged out in {{ UICountdown }} seconds.
+            </p>
+            <button class="btn btn-primary btn-lg reset-button" @click="UIReset">Stay logged in</button>
+        </span>
+
+    </div>
+
+    <div class="container">
+        <pre>{{ $data | json }}</pre>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.12/vue.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
