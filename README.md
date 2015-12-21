@@ -37,6 +37,8 @@ INSTALLATION
 appear at the top of the screen. If you want the warning to be full screen, make sure you
 do not add this within the div container.
 
+```html
+<pre>
     <div class="jumbotron UICountdown">
         <span>
             <h1>You will be logged out!</h1>
@@ -47,7 +49,8 @@ do not add this within the div container.
             <button class="btn btn-primary btn-lg reset-button" @click="UIReset">Stay logged in</button>
         </span>
     </div>
-
+</pre>
+```
 
 2. Add the @mousemove to your body tag
 
