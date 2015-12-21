@@ -38,7 +38,7 @@ appear at the top of the screen. If you want the warning to be full screen, make
 do not add this within the div container.
 
     ```html
-    <div class="jumbotron UICountdown">
+    <div v-cloak class="jumbotron UICountdown">
         <span>
             <h1>You will be logged out!</h1>
             <p>
