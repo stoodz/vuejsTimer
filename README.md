@@ -66,6 +66,6 @@ do not add this within the div container.
 3a. Don't forget to add bootstrap to the head of your HTML.
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    
+
 4. Copy the app.js to your public root folder (or wherever you chose)
 

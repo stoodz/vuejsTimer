@@ -9,6 +9,7 @@
         .jumbotron {background: #d9534f;}
         .UICountdown {padding-left: 50px;}
         .UICountdown h1, .UICountdown p {color: whitesmoke;}
+        [v-cloak] {display:none;}
     </style>
 </head>
 
@@ -20,7 +21,7 @@
         </div>
     </nav>
 
-    <div class="jumbotron UICountdown">
+    <div v-cloak class="jumbotron UICountdown">
         <span>
             <h1>You will be logged out!</h1>
             <p>
